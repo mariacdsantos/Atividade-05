@@ -17,6 +17,12 @@ h1{
     font-size: 39px;
     margin-bottom: 10px;
 }
+.pagina2{
+     font-size: 39px;
+    margin-bottom: 10px;
+     color: rgb(255, 227, 134);
+
+}
 h2{
     font-size: 27px;
 }
@@ -35,6 +41,14 @@ a{
     border-radius: 20px;
     box-shadow: 0px 4px 12px rgb(68, 113, 212);
 }
+.cabecalho-p2{
+    background-image: url(../img/Ultrassom\ ao\ pôr\ do\ sol.png);
+    padding: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+
 .cabecalho{
     background-color: rgb(4, 104, 115);
     color: rgb(234, 234, 234);
@@ -45,6 +59,14 @@ a{
 .cabecalho h1{
     color: rgb(234, 234, 234);
     ;
+}
+.etiqueta-p2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+    color: rgb(255, 247, 189);
+    font-size: 20px;
+    letter-spacing: 10px;
+
 }
 .etiqueta{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -66,6 +88,14 @@ a{
   margin-bottom: 8px;
 }
 .menu-link{
+    color:rgb(221, 255, 239) ;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px ;
+    text-decoration: none;
+}
+.menu-link-p2{
     color:rgb(221, 255, 239) ;
     border: 1px solid rgb(234, 234, 234);
     border-radius: 5px;
