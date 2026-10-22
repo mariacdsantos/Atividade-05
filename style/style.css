@@ -11,7 +11,7 @@ body{
     line-height: 1.6;
 }
 h1,h2,h3{
-    color: rgb(123, 39, 60);
+    color: rgb(0, 86, 198);
 }
 h1{
     font-size: 39px;
@@ -24,25 +24,32 @@ h3{
     font-size: 21px;
 }
 a{
-    color: rgb(204, 133, 160);
+    color: rgb(163, 133, 204);
 }
 .container{
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
 }
+.images{
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgb(68, 113, 212);
+}
 .cabecalho{
     background-color: rgb(4, 104, 115);
     color: rgb(234, 234, 234);
     padding: 30px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
 }
 .cabecalho h1{
     color: rgb(234, 234, 234);
+    ;
 }
 .etiqueta{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 5px;
-    color: rgb(255, 221, 231);
+    color: rgb(97, 210, 255);
     font-size: 20px;
     letter-spacing: 10px;
 }
@@ -68,7 +75,62 @@ a{
 }
 .menu-link:hover{
     background-color: rgb(36, 122, 109);
-    box-shadow: 0px 4px 12px rgb(0, 48, 0);
+    box-shadow: 0px 4px 12px rgb(228, 255, 228);
     transform: translate(-2px);
+    
+}
+.secao{
+    padding: 72px 0;
+}
+.titulo-secao{
+    margin-bottom: 32px;
+    padding-left: 12px;
+    border-left: 5px solid rgb(25, 52, 122);
+    border-radius: 5px;
+}
+.grade-cards{
+    display: grid;
+    gap: 24px;
+}
+.card-primeiros{
+
+    padding: 24px;
+    background-color: rgb(240, 243, 254);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(208, 215, 255);
+    
+}
+.card{
+    padding: 24px;
+    background-color: rgb(240, 243, 254);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(208, 215, 255);
+}
+.lista-tecnologia{
+    display: inline-block;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.lista-tecnologia li{
+    padding: 10px 14px;
+    background-color:rgb(246, 243, 243);
+    display: inline;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 999px;
+}
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: rgb(4, 104, 115);
+    color: rgb(246, 243, 243);
+    text-align: center;
+    
+}
+.rodape address{
+    font-style: italic;
     
 }
