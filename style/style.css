@@ -1,34 +1,74 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box ;
 }
+
 body{
-    background-size:cover;
     margin: 0;
-    background-color: azure;
-    color: rgb(35, 35, 84);
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 255, 255);
+    color: rgb(0, 64, 36);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
-.container{
-    width: 90%;
-    max-width: 1000px;
-    padding: 0 auto;
-}
 h1,h2,h3{
-    color: rgb(225, 253, 226);
+    color: rgb(123, 39, 60);
 }
 h1{
     font-size: 39px;
     margin-bottom: 10px;
 }
+h2{
+    font-size: 27px;
+}
+h3{
+    font-size: 21px;
+}
+a{
+    color: rgb(204, 133, 160);
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .cabecalho{
-    background-color: rgb(6, 52, 0);
-    color: rgb(235, 254, 236);
+    background-color: rgb(4, 104, 115);
+    color: rgb(234, 234, 234);
     padding: 30px;
 }
-.image{
-    width: 50%;
-    border: 10;
-    border-radius: 20%;
+.cabecalho h1{
+    color: rgb(234, 234, 234);
+}
+.etiqueta{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+    color: rgb(255, 221, 231);
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.menu-lista{
+    margin: 20px 0 0;
+    padding: 0;
+
+    list-style: none;
+}
+.menu-lista li{
+  display:inline-block;  
+
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.menu-link{
+    color:rgb(221, 255, 239) ;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px ;
+    text-decoration: none;
+}
+.menu-link:hover{
+    background-color: rgb(36, 122, 109);
+    box-shadow: 0px 4px 12px rgb(0, 48, 0);
+    transform: translate(-2px);
+    
 }
